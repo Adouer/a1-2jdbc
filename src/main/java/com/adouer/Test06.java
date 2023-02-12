@@ -41,7 +41,7 @@ public class Test06 {
                 e.printStackTrace();
             }
         } finally {
-            //关闭数据库连接
+            //步骤6---关闭数据库连接
             instance.closeConnection();
         }
 
